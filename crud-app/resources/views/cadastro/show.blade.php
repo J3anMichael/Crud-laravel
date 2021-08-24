@@ -44,6 +44,10 @@
                             <strong>Estado:</strong>
                             {{ $cadastro->estado }}
                         </div>
+                        <div class="form-group">
+                            <strong>Telefone:</strong>
+                            {{ $cadastro->telefone }}
+                        </div>
 
                     </div>
                 </div>

@@ -31,6 +31,11 @@
             {{ Form::text('estado', $cadastro->estado, ['class' => 'form-control' . ($errors->has('estado') ? ' is-invalid' : ''), 'placeholder' => 'Estado']) }}
             {!! $errors->first('estado', '<div class="invalid-feedback">:message</p>') !!}
         </div>
+        <div class="form-group">
+            {{ Form::label('telefone') }}
+            {{ Form::text('telefone', $cadastro->telefone, ['class' => 'form-control' . ($errors->has('telefone') ? ' is-invalid' : ''), 'placeholder' => 'Telefone']) }}
+            {!! $errors->first('telefone', '<div class="invalid-feedback">:message</p>') !!}
+        </div>
 
     </div>
     <div class="box-footer mt20">

@@ -42,6 +42,7 @@
 										<th>Bairro</th>
 										<th>Cidade</th>
 										<th>Estado</th>
+										<th>Telefone</th>
 
                                         <th></th>
                                     </tr>
@@ -57,6 +58,7 @@
 											<td>{{ $cadastro->bairro }}</td>
 											<td>{{ $cadastro->cidade }}</td>
 											<td>{{ $cadastro->estado }}</td>
+											<td>{{ $cadastro->telefone }}</td>
 
                                             <td>
                                                 <form action="{{ route('cadastros.destroy',$cadastro->id) }}" method="POST">

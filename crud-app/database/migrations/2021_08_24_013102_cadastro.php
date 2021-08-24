@@ -18,10 +18,11 @@ class Cadastro extends Migration
             $table->bigIncrements('id');
             $table->string('nome');
             $table->string('rua');
-            $table->decimal('numero');
+            $table->string('numero');
             $table->string('bairro');
             $table->string('cidade');
             $table->string('estado');
+            $table->string('telefone');
             $table->timestamps();
         });
     }

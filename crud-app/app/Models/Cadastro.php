@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property $bairro
  * @property $cidade
  * @property $estado
+ * @property $telefone
  * @property $created_at
  * @property $updated_at
  *
@@ -30,6 +31,7 @@ class Cadastro extends Model
 		'bairro' => 'required',
 		'cidade' => 'required',
 		'estado' => 'required',
+		'telefone' => 'required',
     ];
 
     protected $perPage = 20;
@@ -39,7 +41,7 @@ class Cadastro extends Model
      *
      * @var array
      */
-    protected $fillable = ['nome','rua','numero','bairro','cidade','estado'];
+    protected $fillable = ['nome','rua','numero','bairro','cidade','estado','telefone'];
 
 
 
