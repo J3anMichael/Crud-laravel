@@ -16,7 +16,7 @@ class Cadastro extends Migration
         //
         Schema::create('cadastro', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('nome completo');
+            $table->string('nome');
             $table->string('rua');
             $table->decimal('numero');
             $table->string('bairro');

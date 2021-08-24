@@ -19,4 +19,5 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::resource('cadastros', App\Http\Controllers\CadastroController::class);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
