@@ -32,9 +32,14 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
+
+                    @if (Auth::check())
                     <ul class="navbar-nav mr-auto">
+                    <a class="nav-link" href="{{ route('cadastros.index') }}">{{ __('Cadastros') }}</a>
+
 
                     </ul>
+                    @endif
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">

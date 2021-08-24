@@ -11,10 +11,10 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">Show Cadastro</span>
+                            <span class="card-title">Amostra</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('cadastros.index') }}"> Back</a>
+                            <a class="btn btn-primary" href="{{ route('cadastros.index') }}"> Voltar</a>
                         </div>
                     </div>
 
